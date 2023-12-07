@@ -39,7 +39,7 @@ app.post('/usuarios', (req, res) => {
 });
 
 // Adiciona roteamento estático para a pasta 'public'
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'index.html')));
 
 // Rota para redirecionar o acesso à raiz para 'index.html'
 app.get('/', (req, res) => {
