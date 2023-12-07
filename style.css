@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Anton&family=Bebas+Neue&family=Jost:ital,wght@1,600&family=Lexend:wght@700&family=Nova+Oval&family=Oswald:wght@500&family=PT+Serif:wght@700&family=Titillium+Web&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap');
 
 * {
@@ -205,7 +204,7 @@ main.flex__col {
 
 .cursor {
   position: fixed;
-  z-index: 1000;
+  z-index: 1000000;
   top: 0;
   left: 0;
   width: 6vw;
@@ -267,4 +266,17 @@ main.flex__col {
   .menu ul {
     gap: 0 2vw;
   }
+}
+
+.imagem_de_perfil {
+  width: 50px; /* Ajuste o tamanho desejado */
+  height: 50px; /* Ajuste o tamanho desejado */
+  border-radius: 50%;
+  overflow: hidden; /* Garante que a imagem siga a borda circular */
+}
+
+.imagem_de_perfil img {
+  width: 100%; /* Garante que a imagem preencha completamente a área circular */
+  height: 100%; /* Garante que a imagem preencha completamente a área circular */
+  object-fit: cover; /* Mantém a proporção da imagem e a corta para preencher o contêiner */
 }
