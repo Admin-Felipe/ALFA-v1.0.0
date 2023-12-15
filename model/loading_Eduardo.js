@@ -33,6 +33,8 @@ particleground(document.getElementById('particles-background'), {
 });
 
 setTimeout(function () {
-  window.location.href = 'database.html';
-}, 10000); // 6000 milissegundos = 6 segundos
+  // Redirecione para a página do usuário
+  const username = 'Eduardo'; // Substitua 'Eduardo' pelo nome do usuário
+  window.location.href = 'database/database_' + username.toLowerCase() + '.html';
+}, 10000); // 10000 milissegundos = 10 segundos
 });

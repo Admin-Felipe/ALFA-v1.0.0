@@ -17,8 +17,12 @@ document.addEventListener('DOMContentLoaded', function () {
         // Verifique as credenciais
         if (predefinedUsers.hasOwnProperty(username) && predefinedUsers[username] === password) {
             alert('Login bem-sucedido! Redirecionando para a página de administração.');
-            // Altere o caminho abaixo para o caminho real da sua página de administração
-            window.location.href = 'admin/loading.html';
+
+            // Construa o caminho da página de carregamento com base no nome de usuário
+            const userLoadingPage = 'admin/loading_' + username.toLowerCase() + '.html';
+            
+            // Redirecione para a página construída
+            window.location.href = userLoadingPage;
         } else {
             alert('Falha no login. Verifique suas credenciais.');
         }
