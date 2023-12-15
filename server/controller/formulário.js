@@ -1,3 +1,4 @@
+window.onload = function() {
 function enviarFormulario() {
     const nome = document.getElementById('nome').value;
     const telefone = document.getElementById('telefone').value;
@@ -19,4 +20,5 @@ function enviarFormulario() {
           console.error('Erro ao inserir no SQLite:', error.message);
        });
     });
- } 
+ }
+}; 

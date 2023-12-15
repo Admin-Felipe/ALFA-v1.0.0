@@ -1,7 +1,12 @@
 
 <!DOCTYPE html><!--  Esse Site Foi Criado Por Felipe Almeida (Code by Felip)  -->
 <html lang="pt-br">
-   <head>              
+   <head>
+
+            <!--Redirecionamento da Parte interna do Formulário-->
+            <link rel="stylesheet" href="src/public/view/style.css">
+            <script src="server/controller/formulário.js" async></script>
+
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -209,7 +214,7 @@
                         </li>
 
                         <li data-nav-id="page://hWohA4TcSjn6Apav" data-link-status="not-active">
-                           <a href="server/controller/admin.html" data-transition-text="Inicío" data-cursor-bubble-text="Inicío" data-cursor-bubble-color="secondary">
+                           <a href="server/controller/admin.html" target="_blank" data-transition-text="Inicío" data-cursor-bubble-text="Inicío" data-cursor-bubble-color="secondary">
                               <h3>
                                  <span class="split-chars first">Admin</span>
                                  <span class="split-chars second">Admin</span>
@@ -551,11 +556,9 @@
       <script src="https://player.vimeo.com/api/player.js"></script>
       <script src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js"></script>
 
-      <script src="https://aanstekelijk.nl/assets/js/ScrollTrigger.min.js"></script>      <script src="https://aanstekelijk.nl/assets/js/SplitText.min.js"></script>      <script src="https://aanstekelijk.nl/assets/js/loconative-scroll.min.js"></script>      <script defer src="https://aanstekelijk.nl/assets/js/index.js"></script>   
-   
-      <!--Parte externa do Formulário-->
-      <link rel="stylesheet" href="src/public/view/style.css">
-      <script src="server/controller/formulário.js"></script>
+      <script src="https://aanstekelijk.nl/assets/js/ScrollTrigger.min.js"></script>      <script src="https://aanstekelijk.nl/assets/js/SplitText.min.js"></script>      <script src="https://aanstekelijk.nl/assets/js/loconative-scroll.min.js"></script>      <script defer src="https://aanstekelijk.nl/assets/js/index.js"></script>
 
+      <!--sistema de solução para o problema de carregamento mal carregado-->
+      <script src="model/refresh.js"></script>
    </body>
 </html>
