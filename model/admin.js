@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', function () {
         event.preventDefault();
 
         const predefinedUsers = {
-            'Sara': '12345678',
-            'Eduardo': '12345678',
-            'Cassio': '12345678',
-            'Andre': '12345678',
-            'Josi': '12345678',
-            'Talita': '12345678',
+            'sara': '12345678',
+            'eduardo': '12345678',
+            'cassio': '12345678',
+            'andre': '12345678',
+            'josi': '12345678',
+            'talita': '12345678',
         };
 
         const username = document.getElementById('logname').value;
