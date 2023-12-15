@@ -1,0 +1,5 @@
+/* Adicione os estilos que escondem o conteúdo */
+body.hidden {
+    display: none;
+ }
+ 
