@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 setTimeout(function () {
     // Redirecione para a página do usuário
-    const username = 'Andre'; // Substitua 'Eduardo' pelo nome do usuário
+    const username = 'andre'; // Substitua 'Eduardo' pelo nome do usuário
     window.location.href = 'database/database_' + username.toLowerCase() + '.html';
   }, 10000); // 10000 milissegundos = 10 segundos
 });

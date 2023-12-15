@@ -34,7 +34,7 @@ particleground(document.getElementById('particles-background'), {
 
 setTimeout(function () {
   // Redirecione para a página do usuário
-  const username = 'Eduardo'; // Substitua 'Eduardo' pelo nome do usuário
+  const username = 'eduardo'; // Substitua 'Eduardo' pelo nome do usuário
   window.location.href = 'database/database_' + username.toLowerCase() + '.html';
 }, 10000); // 10000 milissegundos = 10 segundos
 });
